@@ -3111,7 +3111,7 @@ namespace Sdl.Tridion.Api.Client.ContentModel
 		/// <summary>
 		/// Matching score of the result.
 		/// </summary>
-		public float Score { get; set; }
+		public float? Score { get; set; }
 
 		/// <summary>
 		/// The url of the search result.

@@ -368,7 +368,7 @@ namespace Sdl.Tridion.Api.Client
         /// <param name="resultFilter"></param>
         /// <param name="pagination"></param>
         /// <returns></returns>
-        FacetedSearchResults SearchByCriteria(InputCriteria criteria, InputResultFilter resultFilter, IPagination pagination);
+        FacetedSearchResults SearchByCriteria(InputCriteria criteria, InputResultFilter resultFilter, IPagination pagination, InputSortBy sort);
 
         /// <summary>
         /// Faceted Search by criteria

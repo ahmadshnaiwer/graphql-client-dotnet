@@ -317,7 +317,7 @@ namespace Sdl.Tridion.Api.Client
                     .Build();
         }
 
-        public static IGraphQLRequest SearchByCriteria(InputCriteria criteria, InputResultFilter resultFilter, IPagination pagination)
+        public static IGraphQLRequest SearchByCriteria(InputCriteria criteria, InputResultFilter resultFilter, IPagination pagination, InputSortBy sort)
         {
             QueryBuilder builder =
                 new QueryBuilder().WithQueryResource("SearchByCriteria", false);
@@ -327,6 +327,7 @@ namespace Sdl.Tridion.Api.Client
                     .WithVariable("criteria", criteria)
                     .WithVariable("inputResultFilter", resultFilter)
                     .WithPagination(pagination)
+                    .WithInputSortBy(sort)
                     .Build();
         }
 

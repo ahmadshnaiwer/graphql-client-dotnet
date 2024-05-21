@@ -12,3 +12,4 @@ CoverageReports/
 *.iml
 target/
 .idea/
+/net/src/Sdl.Tridion.Api.Client/Sdl.Tridion.Api.Client.sln

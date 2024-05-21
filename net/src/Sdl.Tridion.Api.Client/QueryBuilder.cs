@@ -89,6 +89,8 @@ namespace Sdl.Tridion.Api.Client
 
         public QueryBuilder WithInputSortParam(InputSortParam sort) => WithVariable("inputSortParam", sort);
 
+        public QueryBuilder WithInputSortBy(InputSortBy sort) => WithVariable("InputSortBy", sort);
+
         public QueryBuilder WithInputComponentPresentationFilter(InputComponentPresentationFilter filter)
             => WithVariable("filter", filter);
 
